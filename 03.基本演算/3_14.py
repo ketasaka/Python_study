@@ -1,0 +1,6 @@
+print("四角形の面積を求めます")
+x = input("縦の長さ：")
+y = input("横の長さ：")
+a = int(x)
+b = int(y)
+print("四角形の面積 =",a*b)

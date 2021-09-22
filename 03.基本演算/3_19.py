@@ -1,0 +1,6 @@
+print("IBM値を求めます")
+a = input("身長(cm):")
+b = input("体重(kg):")
+he = int(a)
+we = int(b)
+print("IBM値 =",we/(he*he/10000))

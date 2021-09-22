@@ -1,0 +1,5 @@
+s = input("整数a:")
+a = int(s)
+t = input("整数b:")
+b = int(t)
+print("a+bは",a+b,"です")
