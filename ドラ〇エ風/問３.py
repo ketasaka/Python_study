@@ -7,10 +7,11 @@ doraki = ["ドラキー",30,10,45]
 import random
 
 teki_hp = random.randint(100,200)
-teki_kougeki = random.randint(10,30)
+teki_kougeki = random.randint(10,25)
+teki_hayasa = random.randint(1,100)
 
 
-teki = ["敵",250,10,29]
+teki = ["敵", teki_hp, teki_kougeki, teki_hayasa]
 
 #攻撃フェーズ
 import time
